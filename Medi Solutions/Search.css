@@ -1,0 +1,33 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(125, 134, 155);
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    color: black;
+  }
+  
+  .topnav a.active:hover {
+    color: black;
+  }
+  @media screen and (max-width: 600px) {
+    .topnav .login-container {
+      float: none;
+    }
+    .topnav a {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+  }
